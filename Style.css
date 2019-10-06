@@ -6,6 +6,8 @@ header {
     background-color: #2D89E6;
     height:40px;
 }
+
+
 .title { 
     text-align: center;
     padding-top:10px;
@@ -13,3 +15,8 @@ header {
     color:white;
 }
 
+.webPageBody{
+    position: absolute;
+    top:60px;
+    left:20px;
+}
