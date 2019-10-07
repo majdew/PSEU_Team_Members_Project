@@ -11,19 +11,23 @@
             </div> 
         </header>
         <div class="webPageBody">
-            <div class="form">
-                <form>
+            <div class="addMemberDiv">
+                <form class="addMemberForm">
+                    <label class="addMemberFormTitle" >Add New Member</label>
                     <input class="formTextField" placeholder="Name" type="text">
                     <input class="formTextField"placeholder="Email" type="text">
                     <input class="formTextField" placeholder="Major" type="text">
                     <input class="formTextField" placeholder="Role" type=>
-                    <textarea placeholder="Biography"type="text"></textarea>
-                    <input class="formTextField" class="checkBox" type="checkbox">
-                    <label class="palceLabel" >Add at bottom / or at index</label>
-                    <input class="formTextField" class="index" type="text">
+                    <textarea class="biographyTextArea" placeholder="Biography" type="text"></textarea>
+                    <div class="indexArea">
+                            <input  class="indexCheckBox" type="checkbox">
+                            <label class="placeLabel" >Add at bottom / or at index</label>
+                            <input  class="index" type="text">
+                    </div>
                     <button class="saveButton">Save</button>
                 </form>
             </div>
+        
         </div>
     </body>
 </html>
