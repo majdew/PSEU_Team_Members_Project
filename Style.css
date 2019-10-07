@@ -13,7 +13,7 @@ header {
     color: white;
 }
 
-.webPageBody {
+.addMemberDiv {
     position: absolute;
     top: 60px;
     left: 20px;
@@ -65,24 +65,24 @@ header {
     width: 10px;
     height: 10px;
     border: 0.5px solid #C3C3C3;
-    margin: 25px 5px 0px  0px;
+    margin: 10px 5px 0px  0px;
 }
 
 .placeLabel{
     height:30px;
-    padding-top:23px;
-    font-size: 10px;
+    padding-top:10px;
+    font-size: 8px;
     font-family: "Segoe UI";
     text-align: center;
 
 }
 
 .index {
-    height:20px;
-    width:30px;
+    height:10px;
+    width:20px;
     margin-left:5px;
     float: left;
-    margin-top:10px;
+    margin-top:5px;
 }
 
 .saveButton {
@@ -93,4 +93,15 @@ header {
     border-style: none;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.formFieldSelect {
+    width:212px;
+    height:40px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color:#707070;
+    border: 1px solid #C3C3C3;
 }
