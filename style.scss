@@ -1,0 +1,25 @@
+@import "form";
+@import "basicFunctions";
+
+$lightBlue: #2D89E6;
+
+header {
+    @include elementPositioning(absolute,0px,0px);
+    @include setSize(100%,40px);
+    background-color: $lightBlue;
+}
+
+.title { 
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+}
+
+.addMemberDiv {
+    @include elementPositioning(absolute,60px,20px);
+}
+.viewMembersDev {
+    @include elementPositioning(absolute,40px,295px ) ;
+    @include setSize(100%,100%);
+    background-color: whitesmoke;
+}

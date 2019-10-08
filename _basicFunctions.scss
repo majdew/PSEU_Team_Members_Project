@@ -1,0 +1,17 @@
+$textFont: "Segoe UI";
+
+@mixin elementPositioning ($position,$top,$left ) {
+    position: $position;
+    top: $top;
+    left: $left;
+}
+@mixin flex ($flexDirection) {
+    display: flex;
+    flex-direction: $flexDirection;
+
+}
+
+@mixin setSize($width,$height) {
+    width: $width;
+    height: $height;
+}
