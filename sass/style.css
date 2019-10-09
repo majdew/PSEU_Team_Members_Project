@@ -1,3 +1,25 @@
+header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: #2D89E6;
+}
+
+.title {
+  text-align: center;
+  padding: 10px 0px;
+  color: white;
+}
+
+.addMemberDiv {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  margin-left: 50px;
+}
+
 .addMemberFormTitle {
   text-align: center;
   font-family: "Segoe UI";
@@ -96,33 +118,38 @@
   width: 212px;
 }
 
-header {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 40px;
-  background-color: #2D89E6;
-}
-
-.title {
-  text-align: center;
-  padding: 10px 0px;
-  color: white;
-}
-
-.addMemberDiv {
-  position: absolute;
-  top: 60px;
-  left: 20px;
-}
-
-.viewMembersDev {
+.viewMembersDiv {
   position: absolute;
   top: 40px;
   left: 295px;
-  width: 100%;
+  width: 900px;
   height: 100%;
   background-color: whitesmoke;
+  margin-left: 50px;
+}
+
+.sortHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.leftDiv {
+  background-color: #2D89E6;
+  width: 500px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.rightDiv {
+  background-color: #2D89E6;
+  width: 100px;
+  height: 30px;
+  margin: 20px 0px 0px 20px;
+  border-radius: 20px 0px 0px 20px;
 }
 /*# sourceMappingURL=style.css.map */
