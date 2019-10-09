@@ -1,0 +1,67 @@
+.addMemberDiv {
+    @include elementPositioning(absolute,60px,20px);
+    margin-left: 50px;
+}
+
+.addMemberFormTitle {
+    text-align: center;
+    font-family: $textFont;
+    color: #707070;
+    font-size: 12px;
+    margin: 15px 0px 20px;
+
+}
+
+.addMemberForm {
+    @include flex(column);
+    align-items: center;
+    @include elementBorder();
+    border-radius: 40px;
+    
+}
+
+.formField {
+    @include formElementStyle(30px);
+}
+
+.biographyTextArea {
+    @include formElementStyle(100px);
+
+}
+
+.indexArea {
+    @include flex(row);
+}
+
+.indexCheckBox {
+    @include setSize(10px,10px);
+    margin: 10px 5px 0px  0px;
+    @include elementBorder();
+}
+
+.placeLabel{
+    height:30px;
+    padding-top:10px;
+    font-size: 8px;
+    font-family: $textFont;
+    text-align: center;
+}
+
+.index {
+    @include setSize(20px,10px);
+    float: left;
+    margin:5px 0px 0px 5px;
+}
+
+.saveButton {
+    @include setSize(100%,40px);
+    background-color:$lightBlue;
+    color:white;
+    border-radius:0px 0px 40px 40px ;
+    border-style: none;
+}
+
+.formFieldSelect {
+    @include formElementStyle(40px);
+    width: 212px;
+}

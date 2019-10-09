@@ -1,0 +1,48 @@
+.viewMembersDiv {
+    @include elementPositioning(absolute,40px,295px ) ;
+    @include setSize(900px,100%);
+    background-color: whitesmoke;
+    margin-left: 50px;
+
+}
+
+.sortHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftDiv {
+    background-color: $lightBlue;
+    @include setSize(600px,30px);
+    margin-top: 20px;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    .sortBy {
+        color: white;
+        font-size: 8px;
+        font-family: $textFont;
+        margin-left:30px;
+        vertical-align: middle;   
+    }
+    .sortSelect  {
+        font-size: 7px;
+        border-radius: 4px;
+        color: #707070;
+        padding: 5px;
+        width: 70px;
+        margin-left: 5px;
+    }
+    .sortFilterSelect input{
+        width: 150px;
+        margin-left: 7px;
+    }
+}
+
+.rightDiv {
+    background-color: #2D89E6;
+    @include setSize(100px,30px);
+    margin: 20px 0px 0px 20px;
+    border-radius: 20px 0px 0px 20px;
+}
