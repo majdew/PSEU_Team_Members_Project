@@ -129,9 +129,31 @@ header {
 
 .leftDiv {
     background-color: $lightBlue;
-    @include setSize(500px,30px);
+    @include setSize(600px,30px);
     margin-top: 20px;
     border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    .sortBy {
+        color: white;
+        font-size: 8px;
+        font-family: $textFont;
+        margin-left:30px;
+        vertical-align: middle;   
+    }
+    .sortSelect  {
+        font-size: 7px;
+        border-radius: 4px;
+        color: #707070;
+        padding: 5px;
+        width: 70px;
+        margin-left: 5px;
+    }
+    .sortFilterSelect input{
+        width: 150px;
+        margin-left: 7px;
+    }
 }
 
 .rightDiv {
@@ -140,4 +162,5 @@ header {
     margin: 20px 0px 0px 20px;
     border-radius: 20px 0px 0px 20px;
 }
+
 
