@@ -1,7 +1,6 @@
-@import "form";
-@import "basicFunctions";
-
-$lightBlue: #2D89E6;
+@import "formStyle";
+@import "mixins";
+@import "variables";
 
 header {
     @include elementPositioning(absolute,0px,0px);

@@ -1,0 +1,29 @@
+@mixin formElementStyle ($height) {
+    @include setSize(200px,$height);
+    font-size: 10px;
+    border-radius: 10px;
+    @include elementBorder();
+    color: #707070;
+    padding: 5px;
+    margin: 0px 20px 5px 20px;
+}
+
+@mixin elementBorder() {
+    border: 1px solid $formFieldColor;
+}
+
+@mixin elementPositioning ($position,$top,$left ) {
+    position: $position;
+    top: $top;
+    left: $left;
+}
+@mixin flex ($flexDirection) {
+    display: flex;
+    flex-direction: $flexDirection;
+
+}
+
+@mixin setSize($width,$height) {
+    width: $width;
+    height: $height;
+}
