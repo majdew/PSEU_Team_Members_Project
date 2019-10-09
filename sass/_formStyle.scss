@@ -16,7 +16,7 @@
     @include flex(column);
     align-items: center;
     @include elementBorder();
-    border-radius: 40px;
+    border-radius: $formEdgesRadius;
     
 }
 
@@ -57,7 +57,7 @@
     @include setSize(100%,40px);
     background-color:$lightBlue;
     color:white;
-    border-radius:0px 0px 40px 40px ;
+    border-radius:0px 0px $formEdgesRadius $formEdgesRadius;
     border-style: none;
 }
 
