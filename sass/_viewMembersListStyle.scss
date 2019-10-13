@@ -2,18 +2,40 @@ ul {
     list-style: none;
 }
 li {
-    h6 {
-        margin-top:2px;
-        margin-bottom: 0px;
-        color:$lightBlue;
-    }
-    h5{
-        font-size: 17px;
-        margin-bottom: 7px;
-        font-weight: 700px;
-    }
-    p {
-        margin-top:2px;
-        font-size: 10px;
+
+    .paragraphIconDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .removeIcon {
+            width:5px;
+            height:5px;
+            vertical-align: middle;
+        }
+        .memberInfoDiv {
+            margin-left: 20px;
+            h6 {
+                margin-top:2px;
+                margin-bottom: 0px;
+                color:$lightBlue;
+            }
+            h5{
+                font-size: 17px;
+                margin-bottom: 7px;
+                font-weight: 700px;
+            }
+            .memberPargraphDiv{
+                height: 25px;
+                overflow: hidden;
+                p {
+                    margin-top:2px;
+                    font-size: 10px;
+                }
+            }
+
+        }
+
     }
 }
+
+

@@ -1,6 +1,6 @@
 .viewMembersDiv {
     @include elementPositioning(absolute,40px,295px ) ;
-    @include setSize(900px,100%);
+    @include setSize(100%,100%);
     background-color: whitesmoke;
     margin-left: 50px;
 
